@@ -9,10 +9,10 @@ const CollectionConfig: CollectionConfigInterface = {
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
-  contractName: 'YourNftToken',
-  tokenName: 'My NFT Token',
-  tokenSymbol: 'MNT',
-  hiddenMetadataUri: 'ipfs://__CID__/hidden.json',
+  contractName: 'UucNftToken',
+  tokenName: 'Urban Uprise Crew',
+  tokenSymbol: 'UUC',
+  hiddenMetadataUri: 'ipfs://QmNZvkSgyDVUD95FmwNk3mzks6oTXm4YWQ5T2y2nzyADRE/Test.png',
   maxSupply: 10000,
   whitelistSale: {
     price: 0.05,
@@ -27,7 +27,7 @@ const CollectionConfig: CollectionConfigInterface = {
     maxMintAmountPerTx: 5,
   },
   contractAddress: null,
-  marketplaceIdentifier: 'my-nft-token',
+  marketplaceIdentifier: 'urban-uprise-crew',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
 };
